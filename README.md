@@ -6,7 +6,7 @@ This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unb
 * IntelliJ IDEA;
 
 #### JDK / java 11:
-1. Update your systen using this comands: `you will need to do it all the time you want to install something...`
+1. Update your system using this comands: `you will need to do it all the time you want to install something...`
 ```
 $ sudo apt update upgrade
 ```
@@ -14,7 +14,7 @@ $ sudo apt update upgrade
 ``` 
 $ sudo apt install openjdk-11-jdk
 ```
-3. After some time, it will ask you if you want to continue, so you have to press ```y``` to autorizante;
+3. After some time, it will ask you if you want to continue, so you have to press ```y``` to autorizate;
 4. And afther it, use the comand ```java --version``` and ```javac --version```;
 
 #### IntelliJ IDEA:
