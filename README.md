@@ -14,8 +14,8 @@ $ sudo apt update upgrade
 ``` 
 $ sudo apt install openjdk-11-jdk
 ```
-3. Now you have to press ```y``` to autorizante;
-4. And afther some time use the comand ```java --version``` and ```javac --version```;
+3. After some time, it will ask you if you want to continue, so you have to press ```y``` to autorizante;
+4. And afther it, use the comand ```java --version``` and ```javac --version```;
 
 #### IntelliJ IDEA:
 1. Update your systen using this comands:
