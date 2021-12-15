@@ -22,12 +22,10 @@ $ sudo apt install openjdk-11-jdk
 ```
 $ sudo apt update upgrade
 ```
-Before you install IntelliJ, you will need to instal `snap`:
+Now to install the IntelliJ community use this comand:
+```
+sudo snap install intellij-idea-community --classic
+```
+Did you see the word `snap`?
 
 `Snap`, or `Snappy` is a technology udes to install desktop apps in Linux.
-
-So, now let's start, you will need to add a `Snapd` repository:
-```
-echo -e '[gentoo-snappy]\n location = /usr/local/portage/gentoo-snappy\n sync-type = git\n sync-uri = https://github.com/zyga/gentoo-snappy.git\n priority = 50\n auto-sync = yes
-\n Categories=Application' | sudo tee /etc/portage/repos.conf/gentoo-snappy.conf
-```
