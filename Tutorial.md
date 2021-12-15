@@ -24,7 +24,7 @@ $ sudo apt update upgrade
 ```
 Now to install the IntelliJ community use this comand:
 ```
-sudo snap install intellij-idea-community --classic
+$ sudo snap install intellij-idea-community --classic
 ```
 Did you see the word `snap`?
 
