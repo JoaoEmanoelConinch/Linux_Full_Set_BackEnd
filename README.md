@@ -28,4 +28,4 @@ $ sudo snap install intellij-idea-community --classic
 ```
 Did you see the word `snap`?
 
-`Snap`, or `Snappy` is a technology udes to install desktop apps in Linux.
+`Snap`, or `Snappy` is a technology used to install desktop apps in Linux.
