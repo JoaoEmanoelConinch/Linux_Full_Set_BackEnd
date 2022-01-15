@@ -1,4 +1,4 @@
-# Linux_Full_Set_BackEnd
+# ⚔️ Linux_Full_Set_BackEnd ⚔️
 This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unbuntu 20.4.
 
 ### What will you install in this tutorial?
@@ -34,17 +34,53 @@ $ sudo snap install intellij-idea-ultimate --classic
 ```
 To update IntelliJ use:
 ```
-sudo snap refresh intellij-idea-community
+$ sudo snap refresh intellij-idea-community
 ```
 or
 ```
-sudo snap refresh intellij-idea-ultimate
+$ sudo snap refresh intellij-idea-ultimate
 ```
 Did you see the word `snap`?
 
 `Snap`, or `Snappy` is a technology used to install desktop apps in Linux.
 ****
+#### PostgeSQL:
+1. Update your systen using this comands again:
+```
+$ sudo apt update upgrade
+```
+Now you can install postrgres with a pakege `-contrib` to have more funcionalities:
+```
+$ sudo apt install postgresql postgresql-contrib
+```
+> Now postgresql created a user `postgres` in your machine, in postegresql we have `roles`, thets how postegreslq calls users.
+
+You can use the comand:
+```
+$ sudo -i -u postegres
+```
+to start to use this `user/role`
+And to open the pronpt to use `psql` comands use:
+```
+$ psql
+```
+Or in you sudo user you can use the comand:
+```
+$ sudo -u postgres psql
+```
+****
+#### Dbever:
+> DBeaver is a nice open source alternative to manage Databases
+
+Update your systen using this comands again: `$ sudo apt update upgrade`
+
+And now, it's just to rum the comand
+```
+$ sudo snap install dbeaver-ce
+```
+****
 ### Search Sources
 * [Jdk / java11](https://www.linode.com/docs/guides/how-to-install-openjdk-on-ubuntu-20-04/)
 * [IntelliJ IDEA](https://www.edivaldobrito.com.br/ide-intellij-idea-no-ubuntu-debian/)
 * [snap](https://www.edivaldobrito.com.br/suporte-a-pacotes-snap-no-linux/)
+* [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt)
