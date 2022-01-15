@@ -21,6 +21,8 @@ $ sudo apt install openjdk-11-jdk
 4. And afther it, use the comand ```java --version``` and ```javac --version```;
 *******
 #### IntelliJ IDEA:
+>It is an integrated development environment written in Java
+
 1. Update your systen using this comands:
 ```
 $ sudo apt update upgrade
@@ -46,6 +48,8 @@ Did you see the word `snap`?
 `Snap`, or `Snappy` is a technology used to install desktop apps in Linux.
 ****
 #### PostgeSQL:
+> It is a system to manege relational databases
+
 1. Update your systen using this comands again:
 ```
 $ sudo apt update upgrade
