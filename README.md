@@ -81,6 +81,8 @@ $ sudo snap install dbeaver-ce
 ```
 ****
 #### Docker:
+> Docker Desktop helps you build, share, and run containers easily on Mac and Windows as you do on Linux.
+
 Update your systen again: `$ sudo apt update upgrade`
 
 Set up the repository
