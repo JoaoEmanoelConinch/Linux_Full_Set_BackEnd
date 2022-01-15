@@ -6,6 +6,7 @@ This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unb
 * IntelliJ IDEA;
 * PostgreSQL;
 * DBever;
+* Docker;
 ******
 #### JDK / java 11:
 1. Update your system using this comands: `you will need to do it all the time you want to install something...`
@@ -72,11 +73,28 @@ $ sudo -u postgres psql
 #### Dbever:
 > DBeaver is a nice open source alternative to manage Databases
 
-Update your systen using this comands again: `$ sudo apt update upgrade`
+Update your systen again: `$ sudo apt update upgrade`
 
 And now, it's just to rum the comand
 ```
 $ sudo snap install dbeaver-ce
+```
+****
+#### Docker:
+Update your systen again: `$ sudo apt update upgrade`
+
+Set up the repository
+* install packages to allow `apt` to use a repository over HTTPS:
+```
+$ sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+```
+* Add Docker’s official GPG key:
+```
+$  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 ****
 ### Search Sources
@@ -84,3 +102,5 @@ $ sudo snap install dbeaver-ce
 * [IntelliJ IDEA](https://www.edivaldobrito.com.br/ide-intellij-idea-no-ubuntu-debian/)
 * [snap](https://www.edivaldobrito.com.br/suporte-a-pacotes-snap-no-linux/)
 * [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt)
+* [Dbver](https://www.how2shout.com/linux/how-to-install-dbeaver-on-ubuntu-20-04-lts/)
+* [Docker](https://docs.docker.com/engine/install/ubuntu/)
