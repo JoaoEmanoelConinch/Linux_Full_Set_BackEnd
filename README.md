@@ -1,4 +1,5 @@
-# ⚔️ Linux_Full_Set_BackEnd ⚔️
+# ⚔️ Linux_Full_Set_BackEnd  <img align="center" height="50" width="50" src="https://img.vivaolinux.com.br/imagens/artigos/comunidade/1427239737.512px-Tux.svg.png"> 
+
 This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unbuntu 20.4.
 
 ### What will you install in this tutorial?
