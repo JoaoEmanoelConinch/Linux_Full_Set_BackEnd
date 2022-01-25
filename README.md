@@ -3,13 +3,18 @@
 This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unbuntu 20.4.
 
 ### What will you install in this tutorial?
-* JDK / java 11;
-* IntelliJ IDEA;
-* PostgreSQL;
-* DBever;
-* Docker;
+* [JDK / java 11;](#jdk)
+* [IntelliJ IDEA;](#intellij)
+* [PostgreSQL;](#postgres)
+* [DBever;](#dbever)
+* [Docker;](#docker)
+
+<div alige="center" id='jdk'>
+
 ******
+    
 #### JDK / java 11:
+
 1. Update your system using this comands: `you will need to do it all the time you want to install something...`
 ```
 $ sudo apt update upgrade
@@ -20,7 +25,12 @@ $ sudo apt install openjdk-11-jdk
 ```
 3. After some time, it will ask you if you want to continue, so you have to press ```y``` to autorizate;
 4. And afther it, use the comand ```java --version``` and ```javac --version```;
+
+</div>
+<div alige="center" id='intellij'>
+    
 *******
+
 #### IntelliJ IDEA:
 >It is an integrated development environment written in Java
 
@@ -47,7 +57,12 @@ $ sudo snap refresh intellij-idea-ultimate
 Did you see the word `snap`?
 
 `Snap`, or `Snappy` is a technology used to install desktop apps in Linux.
+
+</div> 
+<div alige="center" id='postgres'> 
+    
 ****
+    
 #### PostgeSQL:
 > It is a system to manege relational databases
 
@@ -74,7 +89,12 @@ Or in you sudo user you can use the comand:
 ```
 $ sudo -u postgres psql
 ```
+
+</div>
+<div alige="center" id='dbever'>
+    
 ****
+    
 #### Dbever:
 > DBeaver is a nice open source alternative to manage Databases
 
@@ -84,7 +104,12 @@ And now, it's just to rum the comand
 ```
 $ sudo snap install dbeaver-ce
 ```
-****
+
+</div>
+<div alige="center" id='docker'>
+    
+****  
+
 #### Docker:
 > Docker Desktop helps you build, share, and run containers easily on Mac and Windows as you do on Linux.
 
@@ -102,8 +127,12 @@ $ sudo apt-get install \
 * Add Docker’s official GPG key:
 ```
 $  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-```
+```    
+    
 ****
+
+</div>
+    
 ### Search Sources
 * [Jdk / java11](https://www.linode.com/docs/guides/how-to-install-openjdk-on-ubuntu-20-04/)
 * [IntelliJ IDEA](https://www.edivaldobrito.com.br/ide-intellij-idea-no-ubuntu-debian/)
