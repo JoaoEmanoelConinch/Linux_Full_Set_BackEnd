@@ -3,7 +3,7 @@
 This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unbuntu 20.4.
 
 ### What will you install in this tutorial?
-* [JDK / java 11;](#jdk)
+* [JDK / java;](#jdk)
 * [IntelliJ IDEA;](#intellij)
 * [PostgreSQL;](#postgres)
 * [DBever;](#dbever)
@@ -13,7 +13,7 @@ This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unb
 
 ******
     
-#### JDK / java 11:
+#### JDK / java 11 or 17:
 
 1. Update your system using this comands: `you will need to do it all the time you want to install something...`
 ```
@@ -27,6 +27,11 @@ $ sudo apt upgrade
 ``` 
 $ sudo apt install openjdk-11-jdk
 ```
+or
+``` 
+$ sudo apt install openjdk-17-jdk
+```    
+> JDK 17 is the last LTS Java version, but JDK 11 is the most used.
 3. After some time, it will ask you if you want to continue, so you have to press ```y``` to autorizate;
 4. And afther it, use the comand ```java --version``` and ```javac --version```;
 
@@ -40,7 +45,11 @@ $ sudo apt install openjdk-11-jdk
 
 1. Update your systen using this comands:
 ```
-$ sudo apt update upgrade
+$ sudo apt update
+```
+and
+```
+$ sudo apt upgrade
 ```
 Now to install the IntelliJ community use this comand:(FREE)
 ```
@@ -61,6 +70,8 @@ $ sudo snap refresh intellij-idea-ultimate
 Did you see the word `snap`?
 
 `Snap`, or `Snappy` is a technology used to install desktop apps in Linux.
+    
+ > If you get this error `sudo: snap: command not found`, you can take a look [HERE](https://www.edivaldobrito.com.br/suporte-a-pacotes-snap-no-linux/)
 
 </div> 
 <div alige="center" id='postgres'> 
@@ -72,7 +83,11 @@ Did you see the word `snap`?
 
 1. Update your systen using this comands again:
 ```
-$ sudo apt update upgrade
+$ sudo apt update
+```
+and
+```
+$ sudo apt upgrade
 ```
 Now you can install postrgres with a pakege `-contrib` to have more funcionalities:
 ```
