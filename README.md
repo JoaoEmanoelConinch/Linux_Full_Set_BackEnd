@@ -17,7 +17,11 @@ This is a tutorial to you install your  Linux Full Set BackEnd. I'm using an Unb
 
 1. Update your system using this comands: `you will need to do it all the time you want to install something...`
 ```
-$ sudo apt update upgrade
+$ sudo apt update
+```
+and
+```
+$ sudo apt upgrade
 ```
 2. To install JDK:
 ``` 
